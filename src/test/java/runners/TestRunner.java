@@ -4,7 +4,8 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(
+@CucumberOptions(plugin = {"html:target/htmlReport"
+		,"json:target/cucumber-reports/Cucumber.json"},
 		
  features = "src/test/resources/features",
 		 glue= {"stepDefinitions"}
