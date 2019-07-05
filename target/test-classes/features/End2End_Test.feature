@@ -1,5 +1,5 @@
 Feature: AddContact
-    @TestCaseKey=AD-T7
+    
     @TestCycleKey=AD-C7
     Scenario: AddContact
         
