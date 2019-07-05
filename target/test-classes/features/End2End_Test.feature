@@ -1,6 +1,5 @@
 Feature: AddContact
-    
-    @TestCycleKey=AD-C7
+    @TestCaseKey=AD-T7
     Scenario: AddContact
         
         Given user is on Home Page
